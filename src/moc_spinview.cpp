@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'spinview.h'
 **
-** Created: Sun Dec 7 15:26:22 2008
-**      by: The Qt Meta Object Compiler version 59 (Qt 4.4.3)
+** Created: Mon May 25 17:41:06 2009
+**      by: The Qt Meta Object Compiler version 61 (Qt 4.5.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "spinview.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'spinview.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 59
-#error "This file was generated using the moc from 4.4.3. It"
+#elif Q_MOC_OUTPUT_REVISION != 61
+#error "This file was generated using the moc from 4.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,13 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_Spinview[] = {
 
  // content:
-       1,       // revision
+       2,       // revision
        0,       // classname
        0,    0, // classinfo
-      17,   10, // methods
+      17,   12, // methods
        0,    0, // properties
        0,    0, // enums/sets
+       0,    0, // constructors
 
  // signals: signature, parameters, type, tag, flags
       16,   10,    9,    9, 0x05,
@@ -106,6 +107,7 @@ int Spinview::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 14: setGroupIndex((*reinterpret_cast< const int(*)>(_a[1]))); break;
         case 15: setColor((*reinterpret_cast< const int(*)>(_a[1])),(*reinterpret_cast< const QColor(*)>(_a[2]))); break;
         case 16: blink(); break;
+        default: ;
         }
         _id -= 17;
     }

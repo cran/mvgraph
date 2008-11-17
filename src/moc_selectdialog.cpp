@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'selectdialog.h'
 **
-** Created: Sat Dec 6 16:43:09 2008
-**      by: The Qt Meta Object Compiler version 59 (Qt 4.4.3)
+** Created: Mon May 25 17:40:30 2009
+**      by: The Qt Meta Object Compiler version 61 (Qt 4.5.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "selectdialog.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'selectdialog.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 59
-#error "This file was generated using the moc from 4.4.3. It"
+#elif Q_MOC_OUTPUT_REVISION != 61
+#error "This file was generated using the moc from 4.5.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,13 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_Selectdialog[] = {
 
  // content:
-       1,       // revision
+       2,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   10, // methods
+       3,   12, // methods
        0,    0, // properties
        0,    0, // enums/sets
+       0,    0, // constructors
 
  // slots: signature, parameters, type, tag, flags
       14,   13,   13,   13, 0x08,
@@ -71,6 +72,7 @@ int Selectdialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 0: on_button_add_clicked(); break;
         case 1: on_button_remove_clicked(); break;
         case 2: setOk((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
         }
         _id -= 3;
     }
