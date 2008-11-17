@@ -1,0 +1,5 @@
+DEFINES = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -DQT_OPENGL_LIB
+PKG_CPPFLAGS = -I'C:\Qt\4.4.3\include' -I'C:\Qt\4.4.3\include\QtCore' -I'C:\Qt\4.4.3\include\QtGui' -I'C:\Qt\4.4.3\include\QtOpenGL'
+PKG_CFLAGS = -pipe -W -D_REENTRANT $(DEFINES)
+PKG_CXXFLAGS = -pipe -W -D_REENTRANT $(DEFINES)
+PKG_LIBS = $(SUBLIBS)  -L'C:\Qt\4.4.3\lib' -L'C:\MinGW\lib' -lQtGui4 -lQtCore4 -lQtOpenGL4 -lglu32 -lopengl32

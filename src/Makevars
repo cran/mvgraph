@@ -1,0 +1,5 @@
+DEFINES = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -DQT_OPENGL_LIB
+PKG_CPPFLAGS = -DQT_SHARED -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtOpenGL   -I. 
+PKG_CFLAGS = -pipe -W -D_REENTRANT $(DEFINES)
+PKG_CXXFLAGS = -pipe -W -D_REENTRANT $(DEFINES)
+PKG_LIBS = $(SUBLIBS) -lQtGui -lQtCore -lQtOpenGL   -lGLU
