@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'rotatewidget.h'
 **
-** Created: Mon May 25 17:40:09 2009
-**      by: The Qt Meta Object Compiler version 61 (Qt 4.5.1)
+** Created: Thu Jul 15 12:50:31 2010
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "rotatewidget.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'rotatewidget.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 61
-#error "This file was generated using the moc from 4.5.1. It"
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,13 +20,15 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_Rotatewidget[] = {
 
  // content:
-       2,       // revision
+       4,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   12, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
       20,   14,   13,   13, 0x08,
@@ -49,9 +51,13 @@ const QMetaObject Rotatewidget::staticMetaObject = {
       qt_meta_data_Rotatewidget, 0 }
 };
 
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &Rotatewidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
 const QMetaObject *Rotatewidget::metaObject() const
 {
-    return &staticMetaObject;
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
 }
 
 void *Rotatewidget::qt_metacast(const char *_clname)
